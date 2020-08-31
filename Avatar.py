@@ -48,7 +48,7 @@ def greeting():
         speak('Good afternoon master')
     elif 20>time>17:
         speak('Good Evening master')
-    elif 3<time>20:
+    elif 3>time>20:
         speak('Good night master! time to sleep')
     else:
         speak('good morning')
